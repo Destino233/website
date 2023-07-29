@@ -15,7 +15,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
   return (
     <>
       <SEO
-        title="Home"
+        title="主页"
         description="LeavesMC is a Minecraft software organization focusing on improving
             the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "vanilla"]}
