@@ -22,18 +22,18 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Modern software. <br />
-            <span className="text-green-500">Built to perform.</span>
+            FAQ-花Q. <br />
+            <span className="text-green-500">现代生存服务器.</span>
           </h1>
           <p className="text-xl mt-4">
             这是一个温馨和谐的服务器，有良好的社区氛围，自从2022开服以来我们努力创建一个环境良好的游戏社区，和玩家们度过了很多愉快的时光,在这里的日子将会是你值得回忆的美好时光
           </p>
           <div className="flex flex-row gap-4 mt-8">
             <Button variant="filled" href="/downloads">
-              Downloads
+              下载整合包
             </Button>
             <Button variant="outlined" href="https://docs.leavesmc.top" external>
-              Documentation
+              指令文档
             </Button>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
           </div>
           <div className="flex-1">
             <h2 className="font-semibold text-2xl md:text-4xl break-all">
-              Powering&nbsp;
+              在线玩家&nbsp;
               {playerData ? (
                 <span className="text-green-500">
                   {(playerData[0][1])}+
@@ -68,7 +68,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
               &nbsp;players
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              服务器开启白名单验证，需要填写问卷并审核通过后才可进服   审核通过后 请加入我们的QQ群（点这里加入）
+              服务器开启白名单验证，需要填写问卷并审核通过后才可进服   审核通过后 请加入我们的QQ群：478171406
             </p>
           </div>
         </div>
