@@ -16,9 +16,8 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
     <>
       <SEO
         title="主页"
-        description="LeavesMC is a Minecraft software organization focusing on improving
-            the game’s ecosystem with faster and more secure software."
-        keywords={["leavesmc", "leaves", "minecraft", "vanilla"]}
+        description="这是一个温馨和谐的服务器，有良好的社区氛围，自从2022开服以来我们努力创建一个环境良好的游戏社区，和玩家们度过了很多愉快的时光,在这里的日子将会是你值得回忆的美好时光"
+        keywords={["FAQ服务器", "我的世界服务器", "minecraft", "vanilla","原版生存服务器"]}
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">
@@ -71,8 +70,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
               &nbsp;players
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              LeavesMC’s software is designed with utility and performance
-              in mind, it can handle whatever you throw at it.
+              服务器开启白名单验证，需要填写问卷并审核通过后才可进服   审核通过后 请加入我们的QQ群（点这里加入）
             </p>
           </div>
         </div>
