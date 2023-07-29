@@ -26,9 +26,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             <span className="text-green-500">Built to perform.</span>
           </h1>
           <p className="text-xl mt-4">
-            LeavesMC improves Minecraft’s ecosystem with fast, secure
-            and stable software available, providing quick releases and
-            helpful support as the most maverick.
+            这是一个温馨和谐的服务器，有良好的社区氛围，自从2022开服以来我们努力创建一个环境良好的游戏社区，和玩家们度过了很多愉快的时光,在这里的日子将会是你值得回忆的美好时光
           </p>
           <div className="flex flex-row gap-4 mt-8">
             <Button variant="filled" href="/downloads">
