@@ -1,4 +1,4 @@
-# LeavesMC Website
+# FAQServer Website
 
 ## Development
 
