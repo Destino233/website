@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "LeavesMC",
+    "description": "The title in the navbar"
+  },
+  "item.label.Leaves": {
+    "message": "Leaves",
+    "description": "Navbar item with label Leaves"
+  }
+}
