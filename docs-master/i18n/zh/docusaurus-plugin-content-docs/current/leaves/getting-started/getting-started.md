@@ -2,63 +2,50 @@
 slug: /leaves/getting-started
 ---
 
-# 开始使用
+# 基本指令
 
-## 环境要求
+##传送类：
+/warp 可以传送到已设置的传送点
+/warps 列出传送点
+/tpa 向他人发出传送请求
+/tpaaccept 同意他人传送请求
+/tpacancel 取消传送请求
+/tpaauto 自动同意传送请求
+/tpahere 请求他人传送到你的位置
+/sethome 设置家
+/home 传送到家
+##信息类：
+/gc 查看服务器基本信息
+/tickinfo 或 /mspt 查看服务器TPS和MSPT信息
+/memory、/ram 或 /mem 看有关服务器 jvm 的当前内存池的信息
+/ping 查看自己or某人的延迟
+/pingall 查看所有人的延迟
+/tabtps toggle actionbar 在底部显示服务器TPS和MSPT
+/tabtps toggle bossbar在顶部显示服务器TPS和MSPT
+（推荐）
+/seed 获取种子信息
+##其他：
+/faq-gm 切换为旁观者模式（半径300格内）
 
-| Leaves 版本 | 所需 Java 版本 |
-| --------- | ----------- |
-| 1.20.1+   | Java 17     |
 
-## 迁移到Leaves
+##点歌指令
 
-### 从原版迁移
+命令格式	示例	                      
+/zm play <平台> <歌名>	/zm play netease 错位时空	   |播放一个音乐
+/zm music <平台> <歌名>	/zm music netease 错位时空	 |全服点播一个音乐
+/zm search <平台> <歌名>	/zm search netease 错位时空 |通过关键词搜索音乐
 
-Leaves 会像 Paper 一样自动处理好一切，无需任何额外操作。
+/skull 获取玩家头颅
+/sit (/gsit) -> 坐下
+/lay (/glay) -> 躺下 
+/spin (/gspin) -> 秦始皇旋转一小时（确信
+/crawl (/gcrawl) -> 阴暗地爬行
 
-### 从 CraftBukkit/Spigot/Paper 迁移
 
-Leaves 是 CraftBukkit/Spigot/Paper 的下游替代品，所以你无需任何操作。
+## 服务器由 Leaves 强劲支持
 
-## 下载Leaves
+Leaves 是 Paper 的分支，在插件端实现假人功能
 
-Leaves在 [GitHub Releases](https://github.com/LeavesMC/Leaves/releases) 上提供可直接运行的 Jar，你可以直接下载。
+Leaves[GitHub](https://github.com/LeavesMC/Leaves)
 
-:::caution
 
-在 Minecraft 版本更新后，我们只会保留旧版本的最后一次构建。
-
-:::
-
-## 运行服务器
-
-你只需像运行其他 Java 程序一样运行 Leaves 即可。
-
-打开你的终端（cmd 或者 powershell）然后输入 `java -Xms2G -Xmx2G -jar leaves.jar nogui` 。
-别忘了把 `leaves.jar` 改为你所下载的Jar文件的名称。
-
-你可以通过修改 `-Xms` 和 `-Xmx` 后的数字来控制服务器使用的内存数量。而 `nogui` 参数则可以禁用原版的 Gui（它十分不好用）。
-
-如果你想获得更多的 Java 高级参数，可以访问 [Aikar's Flags](https://docs.papermc.io/paper/aikars-flags) 来获得更多信息。
-
-你可能还需要访问 [Leaves配置](../configuration.md) 来更改你的服务器配置。
-
-因为 Leaves 是 Paper 的下游服务端，因此你可能还需要修改 Paper 的配置文件。你可以查看以下页面以参考。
-
-- [Paper Global Configuration](https://docs.papermc.io/paper/reference/global-configuration)
-- [Paper Per World Configuration](https://docs.papermc.io/paper/reference/world-configuration)
-
-## 升级服务器
-
-:::tip
-
-如果你使用托管服务商（我们一般称它为面板服），你可能需要查看服务商的文档或者向他们寻求帮助。
-
-:::
-
-升级 Leaves 是十分容易的。
-
-1. 从 [GitHub Releases](https://github.com/LeavesMC/Leaves/releases) 上下载最新的 Jar 文件。
-2. 关闭你的服务器，在服务器运行时替换 Jar 文件肯定导致未知的问题。
-3. 用新 Jar 文件替换掉你的旧 Jar 文件。
-4. 重新启动你的服务器并且观察它是否按计划运行，如果出现了一些错误（这通常在 Minecraft 版本更新时发生），那么你可能需要向插件作者求助。
