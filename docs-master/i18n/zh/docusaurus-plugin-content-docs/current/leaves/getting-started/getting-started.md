@@ -4,7 +4,7 @@ slug: /leaves/getting-started
 
 # 基本指令
 
-##传送类：
+## 传送类：
 /warp 可以传送到已设置的传送点
 /warps 列出传送点
 /tpa 向他人发出传送请求
@@ -14,7 +14,7 @@ slug: /leaves/getting-started
 /tpahere 请求他人传送到你的位置
 /sethome 设置家
 /home 传送到家
-##信息类：
+## 信息类：
 /gc 查看服务器基本信息
 /tickinfo 或 /mspt 查看服务器TPS和MSPT信息
 /memory、/ram 或 /mem 看有关服务器 jvm 的当前内存池的信息
@@ -28,7 +28,7 @@ slug: /leaves/getting-started
 /faq-gm 切换为旁观者模式（半径300格内）
 
 
-##点歌指令
+## 点歌指令
 
 命令格式	示例	                      
 /zm play <平台> <歌名>	/zm play netease 错位时空	   |播放一个音乐
