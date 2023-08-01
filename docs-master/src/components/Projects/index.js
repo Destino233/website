@@ -7,7 +7,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const ProjectList = [
   {
-    title: 'Leaves',
+    title: 'FAQ Server',
     description: <Translate>花Q-FAQ服务器的所有指令/常见问题都在这里！</Translate>,
 	repo: "LeavesMC/Leaves",
 	link: "/leaves",
