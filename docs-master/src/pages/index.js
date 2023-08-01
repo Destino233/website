@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={styles.heroBanner}>
       <div className="container">
-        <h1 className="hero__title">{translate({message: "FAQMC Documentation", description: "Home page title"})}</h1>
+        <h1 className="hero__title">{translate({message: "FAQServer 文档", description: "Home page title"})}</h1>
         <p className="hero__subtitle">{translate({message: "Documentation of all commands for the FAQ server", description: "Home page subtitle"})}</p>
       </div>
     </header>
