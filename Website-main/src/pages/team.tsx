@@ -37,10 +37,17 @@ const Team: NextPage = () => {
             </Button>
             <Button
               variant="outlined"
-              href="https://github.com/LeavesMC"
+              href="https://github.com/Destino233"
               external
             >
-              GitHub
+              GitHub (Owner)
+            </Button>
+            <Button
+              variant="outlined"
+              href="https://github.com/YanVoid"
+              external
+            >
+              GitHub (Developer)
             </Button>
           </div>
         </div>
