@@ -9,8 +9,6 @@ const ProjectList = [
   {
     title: 'FAQ Server',
     description: <Translate>花Q-FAQ服务器的所有指令/常见问题都在这里！</Translate>,
-	repo: "LeavesMC/Leaves",
-	link: "/leaves",
   },
 ];
 
@@ -18,7 +16,7 @@ function Projects({title, description, repo, link}) {
   return (
     <div className={styles.project}>
       <div className={styles.flex}>
-        <Link className={styles.projectGitHub} to={`https://github.com/${repo}`}>
+        <Link className={styles.projectGitHub} to={`https://faq.destino.top/`}>
           {title}
         </Link>
         <p>{description}</p>
