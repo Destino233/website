@@ -12,8 +12,8 @@ function HomepageHeader() {
   return (
     <header className={styles.heroBanner}>
       <div className="container">
-        <h1 className="hero__title">{translate({message: "LeavesMC Documentation", description: "Home page title"})}</h1>
-        <p className="hero__subtitle">{translate({message: "Documentation for all projects under the LeavesMC umbrella", description: "Home page subtitle"})}</p>
+        <h1 className="hero__title">{translate({message: "FAQMC Documentation", description: "Home page title"})}</h1>
+        <p className="hero__subtitle">{translate({message: "Documentation of all commands for the FAQ server", description: "Home page subtitle"})}</p>
       </div>
     </header>
   );
