@@ -1,7 +1,6 @@
 import Image from "next/image";
 import type { ReactElement } from "react";
-
-import LeavesIcon from "@/assets/brand/leaves.svg";
+import FAQIcon from "@/assets/brand/faq.svg";
 import BoltIcon from "@/assets/icons/heroicons/bolt.svg";
 import ChatBubbleLeftRightIcon from "@/assets/icons/heroicons/chat-bubble-left-right.svg";
 import CodeBracketIcon from "@/assets/icons/heroicons/code-bracket.svg";
@@ -14,35 +13,34 @@ import SEO from "@/components/util/SEO";
 import type { ProjectProps } from "@/lib/context/downloads";
 import { getProjectProps } from "@/lib/context/downloads";
 
-const LeavesHome = ({ project }: ProjectProps): ReactElement => {
+const FAQHome = ({ project }: ProjectProps): ReactElement => {
   return (
     <>
       <SEO
-        title="Leaves"
-        description="Leaves is a Minecraft game server based on Paper, designed to repair broken vanilla properties."
+        title="FAQ 服务器客户端 [基于 PCL2]"
+        description="FAQ 服务器客户端 [基于 PCL2] 是一个基于 Paper 的 Minecraft 游戏服务器客户端，旨在提供更好的性能和稳定性。"
         keywords={[
-          "leavesmc",
-          "leaves",
+          "faqmc",
+          "faq",
           "server",
           "minecraft",
-          "vanilla",
           "paper",
-          "fork",
+          "pcl2",
         ]}
       />
       <SoftwareHeader
-        id="leaves"
-        name="Leaves"
+        id="faq"
+        name="FAQ 服务器客户端 [基于 PCL2]"
         versionGroup={project.latestVersionGroup}
-        icon={LeavesIcon}
+        icon={FAQIcon}
         header={
           <>
-            Following vanilla properties
+            更好的性能和稳定性
             <br />
-            <span className="text-green-500">Minecraft server</span>
+            <span className="text-green-500">Minecraft 服务器客户端</span>
           </>
         }
-        description="Leaves is a Minecraft game server based on Paper, designed to repair broken vanilla properties."
+        description="FAQ 服务器客户端 [基于 PCL2] 是一个基于 Paper 的 Minecraft 游戏服务器客户端，旨在提供更好的性能和稳定性。"
       />
       <section
         id="why"
@@ -50,23 +48,23 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4">
-            Why Leaves?
+            为什么选择 FAQ 服务器客户端 [基于 PCL2]？
           </h2>
           <div className="grid md:grid-cols-3 mt-6 gap-2 px-2 xl:gap-4">
             <FeatureCard
               icon={BoltIcon}
-              label="It's stupidly fast"
-              description="Leaves contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
+              label="更快的性能"
+              description="FAQ 服务器客户端 [基于 PCL2] 包含了许多改进和优化，大大提高了性能。这包括异步区块加载，以及对光照引擎、漏斗、实体等方面的主要优化。"
             />
             <FeatureCard
               icon={ChatBubbleLeftRightIcon}
-              label="An active and growing community"
-              description="Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
+              label="活跃的社区"
+              description="FAQ 服务器客户端 [基于 PCL2] 拥有一个活跃的和不断壮大的社区，如果您遇到任何问题，可以在 Discord 上与我们交流，并获得实时支持。"
             />
             <FeatureCard
               icon={CodeBracketIcon}
-              label="An expanded API"
-              description="Leaves extends and improves the Bukkit and Paper APIs so that you and your developers have more features and functionality at your fingertips."
+              label="更好的稳定性"
+              description="FAQ 服务器客户端 [基于 PCL2] 修复了许多 Paper 中存在的 Bug，提供了更好的稳定性和用户体验。"
             />
           </div>
         </div>
@@ -87,30 +85,39 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
           </div>
           <div className="flex-1">
             <h2 className="font-semibold text-2xl md:text-4xl break-all">
-              Getting Started
-            </h2>
-            <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              To get started with Leaves, you will need to download and install
-              the latest version of the server software. Once you&apos;re ready,
-              take a look at our extensive documentation.
-            </p>
-            <div className="flex flex-row gap-4 mt-8">
-              <Button variant="filled" href="/downloads/leaves" dense>
-                Downloads
-              </Button>
-              <Button
-                variant="outlined"
-                href="https://docs.leavesmc.top/leaves/getting-started"
-                external
-                dense
-              >
-                Documentation
-              </Button>
+              入门指南
             </div>
+            <p className="mt-2 text-lg md:text-xl">
+              想要开始使用 FAQ 服务器客户端 [基于 PCL2]？请查看我们的入门指南，了解如何下载、安装和配置服务器客户端，并开始享受更好的 Minecraft 游戏体验。
+            </p>
+            <Button
+              href="https://faqmc.com/docs/getting-started"
+              className="mt-6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              查看入门指南
+            </Button>
           </div>
         </div>
         <div className="flex flex-col gap-6 md:(flex-row gap-8) xl:gap-24 items-center">
-          <div className="w-full flex-1 rounded-xl aspect-video relative overflow-clip">
+          <div className="flex-1">
+            <h2 className="font-semibold text-2xl md:text-4xl break-all">
+              社区支持
+            </h2>
+            <p className="mt-2 text-lg md:text-xl">
+              FAQ 服务器客户端 [基于 PCL2] 拥有一个活跃的社区，您可以在 Discord 上和其他用户交流，并获得实时支持。
+            </p>
+            <Button
+              href="https://discord.gg/faqmc"
+              className="mt-6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              加入 Discord 社区
+            </Button>
+          </div>
+          <div className="w-full flex-1 rounded-xl bg-gray-900 aspect-video relative overflow-clip">
             <Image
               alt=""
               src={CommunityImage}
@@ -119,36 +126,16 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               placeholder="blur"
             />
           </div>
-          <div className="flex-1">
-            <h2 className="font-semibold text-2xl md:text-4xl">
-              Together with a community of server owners
-            </h2>
-            <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              Whether you need help with your server settings, server lag, or
-              need a guide for formatting your chat, our knowledgeable staff and
-              friendly community are always around to lend a hand.
-            </p>
-            <div className="flex flex-row gap-4 mt-8">
-              <Button
-                variant="filled"
-                href="https://discord.gg/5hgtU72w33"
-                external
-                dense
-              >
-                Join our Discord
-              </Button>
-            </div>
-          </div>
         </div>
       </section>
     </>
   );
 };
 
-LeavesHome.softwareProps = {
-  github: "https://github.com/LeavesMC/Leaves",
-};
+export const getStaticProps = async () => ({
+  props: {
+    project: await getProjectProps("faq"),
+  },
+});
 
-export default LeavesHome;
-
-export const getStaticProps = getProjectProps("leaves");
+export default FAQHome;
