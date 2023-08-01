@@ -8,7 +8,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 const ProjectList = [
   {
     title: 'Leaves',
-    description: <Translate>Fork of Paper aimed at repairing broken vanilla properties.</Translate>,
+    description: <Translate>花Q-FAQ服务器的所有指令/常见问题都在这里！</Translate>,
 	repo: "LeavesMC/Leaves",
 	link: "/leaves",
   },
