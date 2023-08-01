@@ -51,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'LeavesMC',
+        title: '强劲支持',
         logo: {
           alt: 'LeavesMC Logo',
           src: 'img/logo.svg',
@@ -61,7 +61,7 @@ const config = {
             type: 'doc',
             docId: 'leaves/leaves',
             position: 'left',
-            label: 'Leaves',
+            label: '强劲支持',
           },
 		  { type: 'localeDropdown', position: 'right' },
 		  {
