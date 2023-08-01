@@ -1,5 +1,4 @@
-import type { ReactElement } from "react";
-
+import { ReactElement } from "react";
 import LeavesIcon from "@/assets/brand/leaves.svg";
 import SoftwareDownload from "@/components/layout/SoftwareDownload";
 import SEO from "@/components/util/SEO";
@@ -10,11 +9,11 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
   return (
     <>
       <SEO
-        title="Leaves Downloads"
-        description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
+        title="Leaves 下载"
+        description="下载 Leaves，我们的 Minecraft 服务器软件，提供无与伦比的性能和稳定性。"
         keywords={[
           "leavesmc",
-          "minecraft",
+          "Minecraft",
           "vanilla",
           "leaves",
           "downloads",
@@ -25,8 +24,8 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
         id="leaves"
         project={project}
         icon={LeavesIcon}
-        description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
-        experimentalWarning="Download experimental builds of Leaves, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
+        description="下载 Leaves，我们的 Minecraft 服务器软件，提供无与伦比的性能和稳定性。"
+        experimentalWarning="下载 Leaves 的实验版本，我们的 Minecraft 服务器软件，提供无与伦比的性能和稳定性。请谨慎操作！"
       />
     </>
   );
