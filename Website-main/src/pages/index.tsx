@@ -32,7 +32,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             <Button variant="filled" href="/downloads">
               下载整合包
             </Button>
-            <Button variant="outlined" href="https://docs.leavesmc.top" external>
+            <Button variant="outlined" href="https://docs.destino.top" external>
               指令文档
             </Button>
           </div>
