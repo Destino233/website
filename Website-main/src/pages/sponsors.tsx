@@ -12,32 +12,22 @@ const Sponsors: NextPage = () => {
   return (
     <>
       <SEO
-        title="Sponsors"
-        description="Without contributors our projects wouldn't be possible. Find out how you can help."
-        keywords={["leavesmc", "leaves", "minecraft", "sponsor", "contributing"]}
+        title="赞助商"
+        description="没有赞助者，我们的项目将无法实现。了解如何帮助我们。"
+        keywords={["leavesmc", "leaves", "minecraft", "赞助", "贡献"]}
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
         <div className="flex-1">
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
-            Sponsors
+            赞助商
           </h1>
           <p className="text-xl mt-4">
-            LeavesMC is an open community, and part of managing the community
-            involves paying for services, servers, and infrastructure. We do
-            what we can to keep our costs reasonable and sustainable, but still
-            some costs are unavoidable.
+            LeavesMC是一个开放的社区，管理社区需要支付服务、服务器和基础设施的费用。我们尽力保持成本的合理和可持续性，但仍然有一些不可避免的费用。
           </p>
           <div className="flex flex-row gap-4 mt-8">
             <Button
-              variant="filled"
-              href="https://patreon.com/violetc422"
-              external
-            >
-              Patreon
-            </Button>
-            <Button
               variant="outlined"
-              href="https://afdian.net/a/s-yh-china"
+              href="https://afdian.net/a/faqserver"
               external
             >
               爱发电
@@ -52,23 +42,23 @@ const Sponsors: NextPage = () => {
       >
         <div className="max-w-7xl mx-auto py-2">
           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4">
-            Why You Should Donate
+            为什么您应该捐赠
           </h2>
           <div className="grid md:grid-cols-3 mt-6 gap-2 px-2 xl:gap-4">
             <FeatureCard
               icon={GlobeAmericasIcon}
-              label="Sustainability"
-              description="Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
+              label="可持续性"
+              description="捐款有助于保持LeavesMC的可持续性，使其对所有人开放。只有能够捐赠的人才应该这样做，如果不能捐赠，也不应该感到难过。"
             />
             <FeatureCard
               icon={BoltIcon}
-              label="Future plans"
-              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and AFDIAN."
+              label="未来计划"
+              description="我们需要升级我们的托管服务，以满足对我们的服务和API日益增长的需求。这将增加成本，我们希望通过爱发电的捐款来抵消这些成本。"
             />
             <FeatureCard
               icon={HeartIcon}
-              label="Giving back"
-              description="If we receive more in donations than our monthly costs, we may consider distributing funds to contributors in a fair and transparent way."
+              label="回馈社区"
+              description="如果我们收到的捐款超过我们的月度成本，我们可能会考虑以公平透明的方式向贡献者分配资金。"
             />
           </div>
         </div>
@@ -77,5 +67,5 @@ const Sponsors: NextPage = () => {
   );
 };
 
-// TODO: Add 爱发电 sponsors & Patreon sponsors
+// TODO: 添加爱发电赞助商
 export default Sponsors;
