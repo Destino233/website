@@ -35,12 +35,11 @@ const Contribute: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">...Financially</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          LeavesMC uses Pateron and AFDIAN to manage various recurring expenses,
-          mostly related to infrastructure.
+          LeavesMC 使用 Pateron 和 AFDIAN 管理各种循环支出，主要涉及基础设施。
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button variant="filled" href="/sponsors" dense>
-            Learn More
+            了解更多
           </Button>
         </div>
       </div>
@@ -55,8 +54,7 @@ const Contribute: NextPage = () => (
       <div className="flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">...Code</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          A big chunk of the code in our projects is written by community
-          members, and we welcome your contributions!
+          我们项目中的大部分代码都是由社区成员编写的，我们欢迎你的贡献！
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
@@ -65,7 +63,7 @@ const Contribute: NextPage = () => (
             external
             dense
           >
-            Learn More
+            了解更多
           </Button>
         </div>
       </div>
@@ -80,13 +78,16 @@ const Contribute: NextPage = () => (
       <div className="lg:flex-1">
         <h2 className="font-medium text-2xl md:text-4xl">...Support</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          A lot of users result in a lot of questions. Everyone is welcome to
-          answer questions or provide support, whether on our Discord server or
-          in our forums
+          大量用户意味着大量问题。每个人都可以在我们的 Discord 服务器或论坛上回答问题或提供支持。
         </p>
         <div className="flex flex-row gap-4 mt-8">
-          <Button variant="filled" href="/community" dense>
-            Our Community
+         <Button
+            variant="filled"
+            href="https://discord.gg/leaves"
+            external
+            dense
+          >
+            了解更多
           </Button>
         </div>
       </div>
@@ -95,24 +96,22 @@ const Contribute: NextPage = () => (
       </div>
     </section>
     <section
-      id="documentation"
+      id="docs"
       className="px-4 py-4 max-w-7xl mx-auto flex flex-col-reverse items-center mt-12 gap-8 lg:flex-row"
     >
       <div className="flex-1">
-        <h2 className="font-medium text-2xl md:text-4xl">...Documentation</h2>
+        <h2 className="font-medium text-2xl md:text-4xl">...Docs</h2>
         <p className="md:(mt-6 text-lg) text-gray-900 dark:text-gray-100 mt-3">
-          Constantly evolving software needs constantly updated documentation.
-          No matter if you want to report missing information or add guides
-          yourself, we always appreciate help.
+          文档是维护项目的重要组成部分。如果你发现文档中的错误或有改进建议，请告诉我们！
         </p>
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/LeavesMC/docs"
+            href="https://github.com/LeavesMC/LeavesDocs/blob/master/CONTRIBUTING.md"
             external
             dense
           >
-            Docs Repository
+            了解更多
           </Button>
         </div>
       </div>
